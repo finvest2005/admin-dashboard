@@ -44,9 +44,10 @@ body {
 
 .header {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   grid-template-rows: 1fr 1.5fr;
   align-items: center;
+  padding: 0 10px;
 }
 
 .header div input {
@@ -88,4 +89,30 @@ button {
 }
 .user-info > * {
   align-self: center;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  padding: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 258px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  margin-top: auto;
+  justify-content: right;
+  gap: 5px;
 }
