@@ -32,4 +32,12 @@ body {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: repeat(6, 1.5rem);
+  row-gap: 25px;
+}
+
+.branding {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3, 1.5rem);
+  row-gap: 25px;
 }
