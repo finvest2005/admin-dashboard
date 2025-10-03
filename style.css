@@ -108,6 +108,7 @@ button {
   flex-direction: column;
   padding: 15px;
   justify-content: flex-end;
+  overflow: auto;
 }
 
 .links {
@@ -115,4 +116,23 @@ button {
   margin-top: auto;
   justify-content: right;
   gap: 5px;
+}
+
+.parts1,
+.parts2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 47.48%;
+  padding: 10px;
+}
+
+.part1 > p,
+.part2 > p {
+  font-size: 12px;
+}
+
+.part1,
+.part2 {
+  place-self: center;
 }
