@@ -27,3 +27,9 @@ body {
   display: grid;
   grid-template-rows: 1fr 4fr 7fr;
 }
+
+.navigation {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(6, 1.5rem);
+}
